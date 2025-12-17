@@ -38,3 +38,30 @@ while(start<end){
         }
     }
 }
+// class Solution {
+//     public static void Reverse(int arr[],int s,int e)
+// {
+// int start=s;
+// int end=e;
+// while(start<end){
+//     int temp =arr[start];
+//     arr[start]=arr[end];
+//     arr[end]=temp;
+//     start++;
+//     end--;
+// }
+
+// }
+//     public void rotate(int[] a, int k) {
+//          if(k<0){
+//             k=k+a.length;
+//         }
+//         k=k%a.length;
+//          Reverse(a, 0, a.length-1);
+//         Reverse(a, 0, k-1);
+       
+       
+//          Reverse(a, k, a.length-1);
+        
+//     }
+// }
